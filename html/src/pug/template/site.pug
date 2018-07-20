@@ -1,0 +1,16 @@
+doctype html
+include ../utility/mixins
+html(lang="en")
+    head
+        block title
+            title Webpack starter kit for PUG, SASS, ES6
+    body
+        block header
+            .container
+                include ../layout/header
+        block main
+            .container
+                include ../layout/main
+        block footer
+            .container
+                include ../layout/footer
