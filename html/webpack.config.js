@@ -63,6 +63,10 @@ module.exports = {
             filename: "home.html",
             template: './src/pug/home.pug'
         }),
+        new HtmlWebpackPlugin({
+            filename: "nopugjs.html",
+            template: './src/pug/nopugjs.html'
+        }),
         //SASS - CSS
         new ExtractTextPlugin({
             filename: 'styles.css',
